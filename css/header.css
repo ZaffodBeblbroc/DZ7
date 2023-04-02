@@ -1,0 +1,40 @@
+.title {
+  width: 100%;
+  height: 75px;
+  margin-bottom: 16px;
+  background-color: #58a85bc4;
+  text-align: center;
+}
+
+.titleText {
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+
+.menu {
+  margin: 0px;
+  position: absolute;
+  right: 10px;
+  background-color: rgb(223, 222, 222);
+  width: 55px;
+  text-align: center;
+}
+
+.list {
+  display: none;
+  position: absolute;
+  margin: 0px;
+  right: 65px;
+  top: 55px;
+  padding: 20px 60px;
+  list-style-type: none;
+  background-color: rgb(216, 197, 201);
+}
+
+.menu:hover + .list {
+  display: block;
+}
+
+.list:hover {
+  display: block;
+}

@@ -1,0 +1,42 @@
+main {
+  position: relative;
+}
+
+section {
+  position: absolute;
+  width: 350px;
+  height: 130px;
+  padding: 16px;
+}
+
+section > h2 {
+  margin: 0px 0px 16px 0px;
+  text-align: center; 
+}
+
+section > p {
+  margin: 0px;
+}
+
+.section:first-child {  
+  left: 5%;
+  background-color: rgb(88, 88, 194);
+}
+
+.section:nth-child(2) {
+  top: 162px;
+  right: 20%;  
+  background-color: rgb(128, 50, 50);
+}
+
+.section:nth-child(3) {
+  top: 324px;
+  left: 25%; 
+  background-color: rgb(63, 185, 63);
+}
+
+.section:nth-child(4) {
+  top: 486px;
+  right: 10%;  
+  background-color: rgb(9, 188, 233);
+}
